@@ -2,10 +2,7 @@ import psycopg2, os
 from movie_utils import extract_name, extract_year, extract_languages, extract_quality, extract_file_size, extract_mini_languages, determine_resolution
 import json
 
-dbname = "movies"
-user = "postgres"
-password = "llvr"
-host = "192.168.56.1"
+
 #port = 15672
 
 #Establish a connection
