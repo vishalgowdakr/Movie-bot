@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #1a1a1a;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #3498db; 
+}
+
+
+.topsec {
+    background-color: #2c2f33;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.agents {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.agent {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.agent img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; 
+    transition: transform 0.3s ease; 
+}
+
+.agent img:hover {
+    transform: scale(1.1); 
+}
+
+.agent h3 {
+    color: #fff;
+    margin-top: 1rem;
+}
+
+
+footer {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.downloads table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.downloads th, .downloads td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.downloads th {
+    background-color: #2c2f33;
+    color: #fff;
+}
+
+.downloads tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.downloads tr:hover {
+    background-color: #e0e0e0;
+}
+
+.downloads a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.downloads a:hover {
+    color: #297fb8;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: hwb(0 0% 100% / 0.986);
+    box-shadow: 0 8px 16px rgba(230, 96, 242, 0.592);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #c6cece;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #3498db;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.ads {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.ad {
+    margin-top: 20px;
+}
+
+.ad img {
+    max-width: 100%;
+    height: auto;
+}
+
